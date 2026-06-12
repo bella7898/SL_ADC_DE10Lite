@@ -4635,7 +4635,7 @@
 		(property "Reference" "R2"
 			(at 0 -2.03 0)
 			(layer "F.SilkS")
-			(uuid "f67d18c9-8ceb-4e54-a5f8-d815a8aab13d")
+			(uuid "52c90ce9-fd86-4634-8eef-ca1d38d6ad47")
 			(effects
 				(font
 					(size 1 1)
@@ -4646,7 +4646,7 @@
 		(property "Value" "10k"
 			(at 0 2.03 0)
 			(layer "F.Fab")
-			(uuid "c787d3c7-68cc-4079-bf8f-eecec4ff5ad7")
+			(uuid "5c105909-7d28-4b18-9c13-d4408884870c")
 			(effects
 				(font
 					(size 1 1)
@@ -4658,7 +4658,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6cd705d6-a645-4b11-bd18-5cdfbde3e139")
+			(uuid "f0f043b2-4479-4872-a512-26abb1a5eb91")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4669,7 +4669,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f621d86d-0662-47cd-89ca-d6afa15bec06")
+			(uuid "b023ad4a-8073-4913-8979-73855c8da5e2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5116,7 +5116,7 @@
 		(property "Reference" "R3"
 			(at 0 -2.03 0)
 			(layer "F.SilkS")
-			(uuid "47a1af7b-a3f6-4fee-895e-30101df68d75")
+			(uuid "41c64952-a950-451a-83e3-7959c99ed3f8")
 			(effects
 				(font
 					(size 1 1)
@@ -5127,7 +5127,7 @@
 		(property "Value" "10k"
 			(at 0 2.03 0)
 			(layer "F.Fab")
-			(uuid "dae26aaa-b1a0-467d-84a6-367322b0c4d9")
+			(uuid "1310be2e-2f8e-48b8-850c-45931ec814b8")
 			(effects
 				(font
 					(size 1 1)
@@ -5139,7 +5139,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "24a31a47-c19c-4caa-a8c0-a43df02bb9c2")
+			(uuid "3d8b10df-afa0-4106-8c81-4ab50489b71f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5150,7 +5150,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0bf70acd-8db4-4775-87a1-cf23fef02305")
+			(uuid "6c8cfb03-5da3-431c-ba0e-9587b1474735")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5597,7 +5597,7 @@
 		(property "Reference" "R1"
 			(at 0 -2.03 0)
 			(layer "F.SilkS")
-			(uuid "c97db274-f305-4895-94bf-028a8bb8bd86")
+			(uuid "52b3fbe8-19b4-4d47-9125-56a255ac1f55")
 			(effects
 				(font
 					(size 1 1)
@@ -5608,7 +5608,7 @@
 		(property "Value" "10"
 			(at 0 2.03 0)
 			(layer "F.Fab")
-			(uuid "82d70b1c-154b-4beb-aabd-696ecf9a6598")
+			(uuid "16a2e41e-f3dd-45a1-a92b-7f25144ab198")
 			(effects
 				(font
 					(size 1 1)
@@ -5620,7 +5620,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8962add4-6f80-4a68-a4c8-031436ac04a0")
+			(uuid "c5d59441-d6a9-4782-b97f-4e4c44246d59")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5631,7 +5631,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "83658423-f963-4b3b-bc22-ae181f2c3c0f")
+			(uuid "836ded4c-4a24-4d2b-943e-53a900ccf0ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6078,7 +6078,7 @@
 		(property "Reference" "J1"
 			(at -1.27 2.77 0)
 			(layer "B.SilkS")
-			(uuid "4689533f-824e-414a-a563-aed94998fe7f")
+			(uuid "0a6d7fa0-a55c-44dd-8d0a-f8ddc8dec6db")
 			(effects
 				(font
 					(size 1 1)
@@ -6090,7 +6090,7 @@
 		(property "Value" "DE10Lite header"
 			(at -0.23 -51.35 0)
 			(layer "B.Fab")
-			(uuid "1d0c7d5d-3f53-4f82-a154-64751603f9fe")
+			(uuid "dc140912-ed8b-4623-943c-ce1e278e868e")
 			(effects
 				(font
 					(size 1 1)
@@ -6103,7 +6103,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6806a9a8-79c9-4e94-b25e-0200663e2d4e")
+			(uuid "5b6631fe-4ffa-423b-af52-e6421331de64")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6115,7 +6115,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c210046f-ea16-432f-b78b-b344341d82ab")
+			(uuid "03ed9f13-0fb7-4a8f-bf51-ace8628dc24c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6794,6 +6794,97 @@
 			(font
 				(size 1.27 1.27)
 			)
+		)
+	)
+	(gr_text "We might wanna move this cap down to\nmake clearance for the pins you'll have to \nroute, you'll figure it out when you begin\nrouting the rest of the pins"
+		(at 101 116 0)
+		(layer "F.SilkS")
+		(uuid "8cd638b6-e5dc-43fe-93d3-e6ac4c103e99")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "See comment for the\ncapacitor on the right side"
+		(at 107.5 109 0)
+		(layer "F.SilkS")
+		(uuid "65e85350-81a1-47c1-b629-537fdc5dd8fb")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Don't bother with this\nlong trace connecting\nagnd on these capacitors\nto the ground via under the\nADC. The ground plane will\nprovide that path just fine.\nOnly do this for connecting to \none of the ADC's ground pins"
+		(at 114 98.5 0)
+		(layer "F.SilkS")
+		(uuid "82b1888a-914a-4cb2-a902-c8b780c84b7e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Not sure what these resistors are for"
+		(at 117.5 129 0)
+		(layer "F.SilkS")
+		(uuid "3e2ef68a-cca5-4f8c-97d6-d667b631873f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Might move this cap to the bottom of the PCB\nThe datasheet suggeested it and I think it will \nInterfere with your routing in this postition.\n\nEither move further away or move to bottom of PCB"
+		(at 136 128 0)
+		(layer "F.SilkS")
+		(uuid "1a63b306-051b-4482-a59b-53d73552ca0a")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Love that you put the ground plane\nsplit vias here, wonderful!\n"
+		(at 141 116 0)
+		(layer "F.SilkS")
+		(uuid "76880147-b608-4b0b-b6b0-96a46918ce76")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "If you put the AVDD-||-AGND capacitor\nto the left of the REFAP-||-AGND capacitor, \nyou'd be able to avoid using a via to route \nAVDD and get a cleaner route"
+		(at 154.5 109.5 0)
+		(layer "F.SilkS")
+		(uuid "71176f8a-8d3f-44a5-aa44-5d62be564432")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(via
