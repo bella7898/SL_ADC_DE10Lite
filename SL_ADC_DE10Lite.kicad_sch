@@ -5212,9 +5212,21 @@
 		)
 		(uuid "58c4ef06-1ef9-4404-bd70-52c7f6b78dda")
 	)
-	(text "One critique is that I would choose the placement of your DB pins\nto allow for the easiest routing, they should be oriented in space like this\n\nFPGA	ADC\nDB15 ->	 DB15\nDB14 ->  DB14\nDB13 ->  DB13\n	.\n	.\n	.\nDB0 -> DB0\n\nNotice how all the DB pins are on one side of the chip? \nThat is an intentional choice to make it easier to route, so \nchoose your pin placements to match their ordering so they link wihout\nany criss-crossing. Whether they go on the left or right side of the header\nwill depend on which orientation we make the PCB relative to the ADC and FPGA"
+	(text "Good work labelling based on\nthe GPIO pin numbers. Makes it easier to \nresolve pin aliases when looking at the design"
 		(exclude_from_sim no)
-		(at 20.32 114.3 0)
+		(at 60.198 179.832 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 0 30 255 1)
+			)
+			(justify left)
+		)
+		(uuid "5c901660-70f2-46a3-99ea-5d1508dbb76c")
+	)
+	(text "Good that you placed the DB pins in order, the exact orientation we'll\nplace this header will depend on our mechanical design.\n\nFPGA	ADC\nDB15 ->	 DB15\nDB14 ->  DB14\nDB13 ->  DB13\n	.\n	.\n	.\nDB0 -> DB0\n\nIf the chip and header are placed next to one another in the right\nway then routing will require zero criss crossing and be clean. The Rd\nsignal is very high value and its wise to incoporate into this first pass of \nzero criss cross routing."
+		(exclude_from_sim no)
+		(at 19.304 116.84 0)
 		(effects
 			(font
 				(size 0.508 0.508)
@@ -5233,6 +5245,17 @@
 			)
 		)
 		(uuid "6704433f-8ca6-45c4-9877-6e235a04a226")
+	)
+	(text "Good catch placing 1uf instead\nof 0.1uf I belive the old altium \nhad a mistake on it"
+		(exclude_from_sim no)
+		(at 196.596 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70747648-5cc1-4954-ad0c-dc5aa5b1376c")
 	)
 	(text "(pin 53)"
 		(exclude_from_sim no)
@@ -5288,6 +5311,16 @@
 			(justify left)
 		)
 		(uuid "7fb2c976-4e64-488d-aae7-9e5494ab4028")
+	)
+	(text "I love using the bar to\nspecify the active low signals.\nExcellent presentation\n"
+		(exclude_from_sim no)
+		(at 34.29 129.54 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+		)
+		(uuid "82dac69e-a106-4063-8b85-cd78236acb2a")
 	)
 	(text "(pin 53)"
 		(exclude_from_sim no)
