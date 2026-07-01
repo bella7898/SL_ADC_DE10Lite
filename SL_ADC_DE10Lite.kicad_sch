@@ -4106,6 +4106,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 96.52) (xy 100.33 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ac41b6e-9304-4422-a946-a6fde21568a2")
+	)
+	(wire
+		(pts
 			(xy 241.3 41.91) (xy 241.3 48.26)
 		)
 		(stroke
@@ -4503,6 +4513,16 @@
 			(justify right bottom)
 		)
 		(uuid "335600b6-2f07-4c63-a1b9-3b93b74aba72")
+	)
+	(label "AGND"
+		(at 93.98 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "33f47ab5-8a82-47f0-a8d4-f2425fbc5a19")
 	)
 	(label "AVDD"
 		(at 43.18 74.93 180)
@@ -5213,6 +5233,16 @@
 			(justify right bottom)
 		)
 		(uuid "a10e7e89-bf0d-4f19-b297-79d653d11165")
+	)
+	(label "DGND"
+		(at 100.33 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1a8cd1b-c360-468e-89d5-36cf44c650f7")
 	)
 	(label "I2C2"
 		(at 129.54 133.35 0)
