@@ -1,0 +1,362 @@
+** Drc report for SL_ADC_DE10Lite.kicad_pcb **
+** Created on 2026-07-08T22:40:26 **
+** Report includes: Errors, Warnings **
+
+** Found 77 DRC violations **
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(154.5000 mm, 50.0000 mm): Segment on Edge.Cuts
+    @(78.4282 mm, 49.5800 mm): Polygon of  on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(154.5000 mm, 50.0000 mm): Segment on Edge.Cuts
+    @(126.9211 mm, 49.4482 mm): Polygon of  on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(154.5000 mm, 50.0000 mm): Segment on Edge.Cuts
+    @(126.4282 mm, 48.0800 mm): Polygon of  on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(146.0000 mm, 109.5000 mm): Segment on Edge.Cuts
+    @(147.1725 mm, 109.1084 mm): Polygon of  on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(132.5000 mm, 105.9885 mm): Segment on Edge.Cuts
+    @(130.9304 mm, 105.4517 mm): Polygon of  on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(142.5000 mm, 103.5000 mm): Arc on Edge.Cuts
+    @(145.5803 mm, 101.2515 mm): Polygon of  on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(146.0000 mm, 109.5000 mm): Segment on Edge.Cuts
+    @(145.7574 mm, 103.7727 mm): Polygon of  on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(146.0000 mm, 109.5000 mm): Segment on Edge.Cuts
+    @(142.6383 mm, 107.4800 mm): Polygon of  on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(142.5000 mm, 103.5000 mm): Arc on Edge.Cuts
+    @(145.6373 mm, 101.0060 mm): Polygon of  on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(132.5000 mm, 105.9885 mm): Segment on Edge.Cuts
+    @(152.7447 mm, 104.5020 mm): Polygon of  on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(70.0000 mm, 64.0000 mm): Arc on Edge.Cuts
+    @(72.6892 mm, 61.4710 mm): Polygon of  on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(70.0000 mm, 60.5000 mm): Segment on Edge.Cuts
+    @(68.5512 mm, 60.0705 mm): Polygon of  on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(70.0000 mm, 60.5000 mm): Segment on Edge.Cuts
+    @(64.5989 mm, 59.4585 mm): Polygon of  on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(63.5000 mm, 57.0000 mm): Arc on Edge.Cuts
+    @(67.4282 mm, 56.5800 mm): Polygon of  on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(132.5000 mm, 105.9885 mm): Segment on Edge.Cuts
+    @(94.0132 mm, 105.7928 mm): Polygon of  on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(73.4568 mm, 101.9253 mm): Segment on Edge.Cuts
+    @(73.2038 mm, 101.5954 mm): Polygon of  on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(81.0002 mm, 107.5255 mm): Segment on Edge.Cuts
+    @(82.6383 mm, 106.4800 mm): Polygon of  on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(69.0000 mm, 113.5000 mm): Segment on Edge.Cuts
+    @(92.7447 mm, 103.5020 mm): Polygon of  on F.Silkscreen
+[lib_footprint_mismatch]: Footprint 'MountingHole_2.5mm' does not match copy in library 'MountingHole'
+    Local override; warning
+    @(63.5000 mm, 53.5000 mm): Footprint H1
+[lib_footprint_mismatch]: Footprint 'MountingHole_2.5mm' does not match copy in library 'MountingHole'
+    Local override; warning
+    @(154.5000 mm, 53.5000 mm): Footprint H2
+[lib_footprint_mismatch]: Footprint 'MountingHole_2.5mm' does not match copy in library 'MountingHole'
+    Local override; warning
+    @(73.5000 mm, 112.0000 mm): Footprint H3
+[lib_footprint_mismatch]: Footprint 'MountingHole_2.5mm' does not match copy in library 'MountingHole'
+    Local override; warning
+    @(142.0000 mm, 112.0000 mm): Footprint H4
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(94.0700 mm, 105.3800 mm): Segment of J2 on F.Silkscreen
+    @(92.7447 mm, 103.5020 mm): Polygon of  on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.4200 mm, 105.3800 mm): Segment of J2 on F.Silkscreen
+    @(92.7447 mm, 103.5020 mm): Polygon of  on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(92.8000 mm, 105.3800 mm): Segment of J2 on F.Silkscreen
+    @(92.7447 mm, 103.5020 mm): Polygon of  on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(92.7447 mm, 103.5020 mm): Polygon of  on F.Silkscreen
+    @(94.0700 mm, 105.3800 mm): Segment of J2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(94.0700 mm, 105.3800 mm): Segment of J2 on F.Silkscreen
+    @(93.3072 mm, 102.7871 mm): Polygon of  on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(94.0700 mm, 105.3800 mm): Segment of J2 on F.Silkscreen
+    @(93.9615 mm, 103.9659 mm): Polygon of  on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(94.0700 mm, 105.3800 mm): Segment of J2 on F.Silkscreen
+    @(85.6373 mm, 100.0060 mm): Polygon of  on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(93.3072 mm, 102.7871 mm): Polygon of  on F.Silkscreen
+    @(94.0700 mm, 102.7300 mm): Segment of J2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.5447 mm, 102.6738 mm): Polygon of  on F.Silkscreen
+    @(94.0700 mm, 102.7300 mm): Segment of J2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(85.6373 mm, 100.0060 mm): Polygon of  on F.Silkscreen
+    @(91.4200 mm, 102.7300 mm): Segment of J2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(85.6373 mm, 100.0060 mm): Polygon of  on F.Silkscreen
+    @(94.0700 mm, 102.7300 mm): Segment of J2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(80.0000 mm, 70.5000 mm): Reference field of G
+    @(84.4854 mm, 67.3402 mm): Polygon of G on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(133.2038 mm, 102.5954 mm): Polygon of  on F.Silkscreen
+    @(127.5000 mm, 105.5000 mm): Polygon on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(92.7447 mm, 103.5020 mm): Polygon of  on F.Silkscreen
+    @(92.8000 mm, 104.0000 mm): PTH pad 1 [/I2C4] of J2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(92.7447 mm, 103.5020 mm): Polygon of  on F.Silkscreen
+    @(95.3400 mm, 104.0000 mm): PTH pad 3 [/I2C3] of J2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(95.1279 mm, 103.2177 mm): Polygon of  on F.Silkscreen
+    @(95.3400 mm, 104.0000 mm): PTH pad 3 [/I2C3] of J2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(93.3072 mm, 102.7871 mm): Polygon of  on F.Silkscreen
+    @(95.3400 mm, 104.0000 mm): PTH pad 3 [/I2C3] of J2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(93.9615 mm, 103.9659 mm): Polygon of  on F.Silkscreen
+    @(92.8000 mm, 104.0000 mm): PTH pad 1 [/I2C4] of J2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(93.9615 mm, 103.9659 mm): Polygon of  on F.Silkscreen
+    @(95.3400 mm, 104.0000 mm): PTH pad 3 [/I2C3] of J2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(85.6373 mm, 100.0060 mm): Polygon of  on F.Silkscreen
+    @(92.8000 mm, 104.0000 mm): PTH pad 1 [/I2C4] of J2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.8964 mm, 54.5092 mm): Polygon of  on F.Silkscreen
+    @(99.7400 mm, 55.0000 mm): PTH pad 28 [/ASLEEP] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(101.5989 mm, 53.9585 mm): Polygon of  on F.Silkscreen
+    @(102.2800 mm, 55.0000 mm): PTH pad 26 [/GPIO(20)-BUSY/INT] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(105.5512 mm, 54.5705 mm): Polygon of  on F.Silkscreen
+    @(104.8200 mm, 55.0000 mm): PTH pad 24 [/DB0] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(104.9211 mm, 52.4482 mm): Polygon of  on F.Silkscreen
+    @(104.8200 mm, 52.4600 mm): PTH pad 23 [/DB1] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(104.4282 mm, 51.0800 mm): Polygon of  on F.Silkscreen
+    @(112.4400 mm, 55.0000 mm): PTH pad 18 [/DB6] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(104.4282 mm, 51.0800 mm): Polygon of  on F.Silkscreen
+    @(109.9000 mm, 55.0000 mm): PTH pad 20 [/DB4] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(104.4282 mm, 51.0800 mm): Polygon of  on F.Silkscreen
+    @(109.9000 mm, 52.4600 mm): PTH pad 19 [/DB5] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(104.4282 mm, 51.0800 mm): Polygon of  on F.Silkscreen
+    @(107.3600 mm, 52.4600 mm): PTH pad 21 [/DB3] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(104.4282 mm, 51.0800 mm): Polygon of  on F.Silkscreen
+    @(104.8200 mm, 52.4600 mm): PTH pad 23 [/DB1] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(104.4282 mm, 51.0800 mm): Polygon of  on F.Silkscreen
+    @(102.2800 mm, 52.4600 mm): PTH pad 25 [unconnected-(J1-Pin_25-Pad25)] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(104.4282 mm, 51.0800 mm): Polygon of  on F.Silkscreen
+    @(99.7400 mm, 55.0000 mm): PTH pad 28 [/ASLEEP] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(83.6892 mm, 54.4710 mm): Polygon of  on F.Silkscreen
+    @(84.5000 mm, 55.0000 mm): PTH pad 40 [/I2C4] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(83.9727 mm, 55.1656 mm): Polygon of  on F.Silkscreen
+    @(84.5000 mm, 55.0000 mm): PTH pad 40 [/I2C4] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(84.9749 mm, 54.9926 mm): Polygon of  on F.Silkscreen
+    @(84.5000 mm, 55.0000 mm): PTH pad 40 [/I2C4] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(85.6008 mm, 54.3462 mm): Polygon of  on F.Silkscreen
+    @(84.5000 mm, 55.0000 mm): PTH pad 40 [/I2C4] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(85.3922 mm, 54.5095 mm): Polygon of  on F.Silkscreen
+    @(84.5000 mm, 55.0000 mm): PTH pad 40 [/I2C4] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(85.0912 mm, 54.7151 mm): Polygon of  on F.Silkscreen
+    @(84.5000 mm, 55.0000 mm): PTH pad 40 [/I2C4] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(78.4282 mm, 49.5800 mm): Polygon of  on F.Silkscreen
+    @(84.5000 mm, 52.4600 mm): PTH pad 39 [/I2C1] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(78.4282 mm, 49.5800 mm): Polygon of  on F.Silkscreen
+    @(84.5000 mm, 55.0000 mm): PTH pad 40 [/I2C4] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(123.5989 mm, 50.9585 mm): Polygon of  on F.Silkscreen
+    @(122.6000 mm, 52.4600 mm): PTH pad 9 [/DB13] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(123.6616 mm, 50.5663 mm): Polygon of  on F.Silkscreen
+    @(122.6000 mm, 52.4600 mm): PTH pad 9 [/DB13] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(124.4204 mm, 53.1616 mm): Polygon of  on F.Silkscreen
+    @(125.1400 mm, 52.4600 mm): PTH pad 7 [/DB15] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(123.8698 mm, 53.2567 mm): Polygon of  on F.Silkscreen
+    @(125.1400 mm, 52.4600 mm): PTH pad 7 [/DB15] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(107.0990 mm, 53.6779 mm): Polygon of  on F.Silkscreen
+    @(107.3600 mm, 55.0000 mm): PTH pad 22 [/DB2] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(133.6008 mm, 52.8462 mm): Polygon of  on F.Silkscreen
+    @(132.7600 mm, 52.4600 mm): PTH pad 1 [/GPIO(19)-~{PAR}/SER] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(133.9435 mm, 52.8846 mm): Polygon of  on F.Silkscreen
+    @(132.7600 mm, 52.4600 mm): PTH pad 1 [/GPIO(19)-~{PAR}/SER] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(133.3922 mm, 53.0095 mm): Polygon of  on F.Silkscreen
+    @(132.7600 mm, 52.4600 mm): PTH pad 1 [/GPIO(19)-~{PAR}/SER] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(133.0912 mm, 53.2151 mm): Polygon of  on F.Silkscreen
+    @(132.7600 mm, 52.4600 mm): PTH pad 1 [/GPIO(19)-~{PAR}/SER] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(130.1163 mm, 53.0479 mm): Polygon of  on F.Silkscreen
+    @(130.2200 mm, 52.4600 mm): PTH pad 3 [/GPIO(25)-RESET] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(131.0186 mm, 53.2181 mm): Polygon of  on F.Silkscreen
+    @(130.2200 mm, 52.4600 mm): PTH pad 3 [/GPIO(25)-RESET] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(128.0703 mm, 53.2279 mm): Polygon of  on F.Silkscreen
+    @(127.6800 mm, 52.4600 mm): PTH pad 5 [/~{RD}] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(127.5512 mm, 51.5705 mm): Polygon of  on F.Silkscreen
+    @(127.6800 mm, 52.4600 mm): PTH pad 5 [/~{RD}] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(126.4282 mm, 48.0800 mm): Polygon of  on F.Silkscreen
+    @(132.7600 mm, 52.4600 mm): PTH pad 1 [/GPIO(19)-~{PAR}/SER] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(126.4282 mm, 48.0800 mm): Polygon of  on F.Silkscreen
+    @(122.6000 mm, 52.4600 mm): PTH pad 9 [/DB13] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(126.4282 mm, 48.0800 mm): Polygon of  on F.Silkscreen
+    @(120.0600 mm, 52.4600 mm): PTH pad 11 [/DE10_5V] of J1
+
+** Found 10 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.2875 mm, 76.7500 mm): Track [/AGND] on F.Cu, length 9.0500 mm
+    @(106.3375 mm, 75.7500 mm): Track [/AGND] on F.Cu, length 1.4125 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.2500 mm, 85.7875 mm): Track [/AGND] on F.Cu, length 6.1250 mm
+    @(109.2500 mm, 77.2500 mm): Track [/AGND] on F.Cu, length 2.4125 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(113.7500 mm, 86.8250 mm): Track [/AGND] on F.Cu, length 7.1625 mm
+    @(114.7500 mm, 77.2500 mm): Track [/AGND] on F.Cu, length 2.4125 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(117.6625 mm, 75.7500 mm): Pad 5 [/AGND] of IC1 on F.Cu
+    @(117.6625 mm, 76.7500 mm): Track [/AGND] on F.Cu, length 7.6625 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(117.6625 mm, 76.7500 mm): Track [/AGND] on F.Cu, length 7.6625 mm
+    @(114.7500 mm, 77.2500 mm): Track [/AGND] on F.Cu, length 2.4125 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(98.2875 mm, 76.2500 mm): Track [/AVDD] on F.Cu, length 8.0500 mm
+    @(109.7500 mm, 79.6625 mm): Track [/AVDD] on F.Cu, length 2.0875 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.0000 mm, 81.5000 mm): Track [/AVDD] on B.Cu, length 0.7071 mm
+    @(109.7500 mm, 81.7500 mm): Track [/AVDD] on F.Cu, length 0.3536 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.5000 mm, 82.0000 mm): Track [/AVDD] on F.Cu, length 0.3536 mm
+    @(112.5000 mm, 82.0000 mm): Via [/AVDD] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.2500 mm, 71.2500 mm): Track [/AVDD] on F.Cu, length 2.5875 mm
+    @(123.7500 mm, 76.2500 mm): Track [/AVDD] on F.Cu, length 6.0875 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.7500 mm, 76.2500 mm): Track [/AVDD] on F.Cu, length 6.0875 mm
+    @(114.2500 mm, 81.7500 mm): Track [/AVDD] on F.Cu, length 2.0875 mm
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
