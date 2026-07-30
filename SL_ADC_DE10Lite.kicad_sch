@@ -4524,6 +4524,16 @@
 		)
 		(uuid "428e6353-647f-4f07-8da6-0800542561b8")
 	)
+	(label "AVDD"
+		(at 116.84 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "44503b8f-78e5-4feb-98de-37a460b08b3f")
+	)
 	(label "I2C3"
 		(at 44.45 176.53 180)
 		(effects
@@ -5453,16 +5463,6 @@
 			(justify right bottom)
 		)
 		(uuid "bebff52b-4c5e-4eeb-bdeb-7d9ee6f3a2fe")
-	)
-	(label "HVDD"
-		(at 116.84 163.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c2d1e03c-6ef8-4bdf-8c5f-84d25a849660")
 	)
 	(label "AGND"
 		(at 261.62 69.85 0)
