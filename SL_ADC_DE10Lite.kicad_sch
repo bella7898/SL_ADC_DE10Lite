@@ -3691,6 +3691,16 @@
 		)
 		(uuid "1030881c-1ed4-45ad-91f2-2696108553ea")
 	)
+	(text "AGND and DGND are joined at the\nbottom of the ADS8528\n"
+		(exclude_from_sim no)
+		(at 98.044 155.956 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "117b2096-5d28-49ae-9c9b-0465224cfb19")
+	)
 	(text "(pin 1)"
 		(exclude_from_sim no)
 		(at 178.054 116.078 0)
@@ -4136,6 +4146,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 151.13) (xy 100.33 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5780371-b930-4fd4-995f-aeca3102575b")
+	)
+	(wire
+		(pts
 			(xy 241.3 63.5) (xy 241.3 69.85)
 		)
 		(stroke
@@ -4384,6 +4404,16 @@
 		)
 		(uuid "21579d9b-c36a-4440-bbf8-daed005fc18d")
 	)
+	(label "DGND"
+		(at 100.33 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2455cb0a-ef77-4d9d-b82b-855ad94a926f")
+	)
 	(label "CH_A0"
 		(at 116.84 57.15 0)
 		(effects
@@ -4433,6 +4463,16 @@
 			(justify right bottom)
 		)
 		(uuid "2b4e03f8-7c89-4b3c-ab12-3f2185de24c1")
+	)
+	(label "AGND"
+		(at 91.44 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d8a3088-688f-4f64-9bbf-c3fce839866f")
 	)
 	(label "HVSS"
 		(at 185.42 116.84 0)
