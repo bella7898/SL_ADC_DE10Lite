@@ -1,8 +1,9 @@
 """Clip decorative KiCad footprint silkscreen polygons to a board helper polygon.
 
-The board must contain exactly one filled gr_poly on User.1.  That polygon is
-treated as the allowed silkscreen area.  Only F.SilkS fp_poly objects inside
-PCBDrawings:* footprints are modified.
+The largest filled gr_poly on User.1 is treated as the allowed silkscreen
+area.  Only F.SilkS fp_poly objects inside PCBDrawings:* footprints are
+modified.  Selecting the largest polygon lets the board also retain smaller
+User.1 manufacturing helpers such as pad-clearance regions.
 """
 
 from __future__ import annotations
@@ -266,9 +267,9 @@ def main() -> None:
         for form in root_forms
         if form.startswith("(gr_poly") and '(layer "User.1")' in form
     ]
-    if len(helpers) != 1:
-        raise SystemExit(f"Expected exactly one User.1 gr_poly helper; found {len(helpers)}")
-    clip = points(helpers[0])
+    if not helpers:
+        raise SystemExit("Expected at least one User.1 gr_poly helper; found none")
+    clip = max((points(helper) for helper in helpers), key=lambda poly: abs(signed_area(poly)))
     if len(clip) < 3:
         raise SystemExit("User.1 helper polygon is empty")
     if not args.inkscape.exists():
