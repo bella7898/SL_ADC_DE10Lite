@@ -3702,7 +3702,7 @@
 	(footprint "PCBDrawings:SubbotsFish"
 		(layer "F.Cu")
 		(uuid "3da7746d-af8d-4549-bf1b-1e1dd0b8fa92")
-		(at 125 91.5)
+		(at 125.248733 89.275896)
 		(property "Reference" ""
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -4269,6 +4269,7 @@
 		(property "Reference" "G"
 			(at -3.5 -2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "39ae49bb-5064-44c5-8f6d-7c78b62f7b0d")
 			(effects
 				(font

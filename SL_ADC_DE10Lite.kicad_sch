@@ -2332,6 +2332,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "KiCad components:ADS8528SPM"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3885,6 +4025,17 @@
 		)
 		(uuid "8b5a5012-b973-476d-b668-e823fa416997")
 	)
+	(text "Unsure if REFN needs to \nbe connected or not\nputting a 0 ohm resistor to\nmake it configurable"
+		(exclude_from_sim no)
+		(at 252.984 89.408 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8db2a455-cca4-46e5-bac5-ce31644f752d")
+	)
 	(text "(pin 63)"
 		(exclude_from_sim no)
 		(at 233.172 55.372 0)
@@ -4106,6 +4257,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 85.09) (xy 241.3 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02716c2c-1cc2-427a-a158-bac7116e7c65")
+	)
+	(wire
+		(pts
 			(xy 261.62 63.5) (xy 261.62 69.85)
 		)
 		(stroke
@@ -4153,6 +4314,16 @@
 			(type default)
 		)
 		(uuid "d5780371-b930-4fd4-995f-aeca3102575b")
+	)
+	(wire
+		(pts
+			(xy 241.3 97.79) (xy 241.3 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0b39629-e871-4379-9744-cc6b608affe8")
 	)
 	(wire
 		(pts
@@ -5603,6 +5774,16 @@
 			(justify left bottom)
 		)
 		(uuid "d7babe94-c10c-44c2-a38e-fa84001f5e39")
+	)
+	(label "AGND"
+		(at 241.3 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8fbdff3-5178-4c9e-8d19-61b9fb41cd40")
 	)
 	(label "GPIO(20)-BUSY{slash}INT"
 		(at 57.15 161.29 0)
@@ -7930,6 +8111,88 @@
 			(project "SL_ADC_DE10Lite"
 				(path "/9fa1cf44-a1cc-46e9-aa9b-d59a1c14c45e"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 241.3 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2b979e7-a4d9-4e92-bbc0-60167ab10b2f")
+		(property "Reference" "R1"
+			(at 243.84 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 243.84 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 239.522 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 241.3 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a5d616b-19c5-4365-81d5-48172971e25f")
+		)
+		(pin "2"
+			(uuid "82e26db7-0ad5-4fc4-8253-5621644ab759")
+		)
+		(instances
+			(project "SL_ADC_DE10Lite"
+				(path "/9fa1cf44-a1cc-46e9-aa9b-d59a1c14c45e"
+					(reference "R1")
 					(unit 1)
 				)
 			)
