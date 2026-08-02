@@ -14471,7 +14471,7 @@
 		(uuid "eff76fea-f5d8-451b-9a42-12d91657690d")
 	)
 	(gr_text "I2C2 I2C3\n"
-		(at 87.5 63.5 90)
+		(at 87.04 60.423 90)
 		(layer "F.SilkS")
 		(uuid "f796490d-79a5-4c71-afaa-916c9719cfb1")
 		(effects
@@ -14479,11 +14479,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "IO22 I2C5\n"
-		(at 90 63.5 90)
+		(at 89.58 60.442 90)
 		(layer "F.SilkS")
 		(uuid "f693a7a7-ccea-4263-b745-a128c751c665")
 		(effects
@@ -14491,11 +14490,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "IO29 I228\n"
-		(at 92.666507 63.541819 90)
+		(at 92.12 60.423 90)
 		(layer "F.SilkS")
 		(uuid "ed3e0fb0-4ba3-49e9-8ddf-6c733ceb0d0c")
 		(effects
@@ -14503,11 +14501,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "3V3 I2C1\n"
-		(at 93 99.5 90)
+		(at 92.8 96.228 90)
 		(layer "F.SilkS")
 		(uuid "b6b44218-38c8-428f-9787-bb88345cb251")
 		(effects
@@ -14515,11 +14512,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "IO27 I226\n"
-		(at 95.213065 63.527404 90)
+		(at 94.66 60.423 90)
 		(layer "F.SilkS")
 		(uuid "8c6cb633-003b-4b82-9aa1-f4ee9ff3fdc8")
 		(effects
@@ -14527,11 +14523,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "3V3 I2C2"
-		(at 95.7676 99.491457 90)
+		(at 95.34 96.228 90)
 		(layer "F.SilkS")
 		(uuid "d4e3fbb1-51af-42e2-999e-4e2357a91820")
 		(effects
@@ -14539,11 +14534,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "DGND 3V3\n"
-		(at 97.700989 63.520401 90)
+		(at 97.2 60.442 90)
 		(layer "F.SilkS")
 		(uuid "3792e530-bbe0-45c8-a04d-375096b1e86f")
 		(effects
@@ -14551,11 +14545,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "AGND I2C4"
-		(at 100.76 100.03 90)
+		(at 100.42 95.733 90)
 		(layer "F.SilkS")
 		(uuid "d5294645-f1c0-46db-9482-e465eaa42131")
 		(effects
@@ -14563,11 +14556,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "AGND I2C5"
-		(at 103.269921 99.474102 90)
+		(at 102.96 95.733 90)
 		(layer "F.SilkS")
 		(uuid "f3936bab-3d6c-493b-8f5c-6e29fbbe648e")
 		(effects
@@ -14575,11 +14567,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "AGND X"
-		(at 105.970602 99.515229 90)
+		(at 105.5 96.704 90)
 		(layer "F.SilkS")
 		(uuid "f62c7a10-d2c1-48cb-8762-4d51e2d6efd7")
 		(effects
@@ -14587,11 +14578,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "AGND A0"
-		(at 108.5 99.5 90)
+		(at 108.04 96.362 90)
 		(layer "F.SilkS")
 		(uuid "fe948d25-a1ca-4e51-8eb4-19bee2e77d0e")
 		(effects
@@ -14599,11 +14589,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "AGND A1"
-		(at 111 99.5 90)
+		(at 110.58 96.362 90)
 		(layer "F.SilkS")
 		(uuid "d44cecf3-0d78-4ef7-bc01-993cf1bae4d5")
 		(effects
@@ -14611,11 +14600,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "AGND B0"
-		(at 113.680724 99.5 90)
+		(at 113.12 96.304 90)
 		(layer "F.SilkS")
 		(uuid "219bf7ab-55d0-498c-9100-00847e9f39e8")
 		(effects
@@ -14623,11 +14611,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "DB8 DB9\n"
-		(at 115.5 63.5 90)
+		(at 114.98 60.08 90)
 		(layer "F.SilkS")
 		(uuid "c71ad2ed-0e40-40a1-bceb-1c06fc82ea9c")
 		(effects
@@ -14635,11 +14622,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "AGND B1"
-		(at 116.5 99.5 90)
+		(at 115.66 96.304 90)
 		(layer "F.SilkS")
 		(uuid "3cf026e3-9b68-4b87-aac7-e9b540781ab8")
 		(effects
@@ -14647,11 +14633,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "DB10 DB11\n"
-		(at 118 63.5 90)
+		(at 117.52 60.842 90)
 		(layer "F.SilkS")
 		(uuid "89af542b-38e0-48ef-a6ee-f90ceec40ff0")
 		(effects
@@ -14659,11 +14644,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "HVSS C0"
-		(at 118.61 99.44 90)
+		(at 118.2 96.457 90)
 		(layer "F.SilkS")
 		(uuid "4896dae1-12d1-4715-a6d0-12bc0dc9c0d7")
 		(effects
@@ -14671,11 +14655,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "HVSS C1"
-		(at 121.09 99.72 90)
+		(at 120.74 96.457 90)
 		(layer "F.SilkS")
 		(uuid "527b0f24-92b0-48d8-980a-e8eaa68faeaa")
 		(effects
@@ -14683,11 +14666,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "DB12 DB13\n"
-		(at 123 63.5 90)
+		(at 122.6 60.842 90)
 		(layer "F.SilkS")
 		(uuid "8ebc9c74-3ca6-4e8a-97ee-14a074bd9ab5")
 		(effects
@@ -14695,11 +14677,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "AVDD D0"
-		(at 123.63 99.62 90)
+		(at 123.28 96.381 90)
 		(layer "F.SilkS")
 		(uuid "39f5cfae-3ccc-44dc-a79a-20189b8efab0")
 		(effects
@@ -14707,11 +14688,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "DB14 DB15\n"
-		(at 125.5 63.5 90)
+		(at 125.14 60.842 90)
 		(layer "F.SilkS")
 		(uuid "353e2297-22e4-4d0c-a2d3-9f21a16c8438")
 		(effects
@@ -14719,11 +14699,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "AVDD D1"
-		(at 126.43 99.84 90)
+		(at 125.82 96.381 90)
 		(layer "F.SilkS")
 		(uuid "56b4eed2-7313-459b-96fd-bfc7fcf3bd70")
 		(effects
@@ -14731,11 +14710,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "~{CS}/~{F5} ~{RD}\n"
-		(at 128 63.5 90)
+		(at 127.68 60.514 90)
 		(layer "F.SilkS")
 		(uuid "e5b625d8-0d43-4aaa-b9b7-ea8c22a7337c")
 		(effects
@@ -14743,11 +14721,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "IO23 IO25\n"
-		(at 130.5 63.5 90)
+		(at 130.22 60.461 90)
 		(layer "F.SilkS")
 		(uuid "92bb0f6b-e6dc-46c8-adfc-91a080a3bb16")
 		(effects
@@ -14755,11 +14732,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "IO24 IO19\n"
-		(at 133 63.5 90)
+		(at 132.76 60.461 90)
 		(layer "F.SilkS")
 		(uuid "b7696135-135b-420e-9477-e26a72527d63")
 		(effects
@@ -14767,11 +14743,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "I2C4 I2C1\n"
-		(at 85 63.5 90)
+		(at 84.5 60.423 90)
 		(layer "F.SilkS")
 		(uuid "af9acc5a-132f-4232-9032-e2adf1461f9f")
 		(effects
@@ -14780,11 +14755,10 @@
 				(thickness 0.1)
 				(bold yes)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "AGND I2C3"
-		(at 98.14 96.57 90)
+		(at 97.88 95.737 90)
 		(layer "F.SilkS")
 		(uuid "c1029fca-bb53-4f07-9954-076bd535121f")
 		(effects
@@ -14792,11 +14766,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify bottom)
 		)
 	)
 	(gr_text "ZZZ IO21\n"
-		(at 100.229821 60.61718 90)
+		(at 99.74 60.237 90)
 		(layer "F.SilkS")
 		(uuid "c76914ba-9a7e-4676-97fc-cb73f424a428")
 		(effects
@@ -14804,11 +14777,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify bottom)
 		)
 	)
 	(gr_text "IO20 X\n"
-		(at 102.739383 61.436629 90)
+		(at 102.28 59.513 90)
 		(layer "F.SilkS")
 		(uuid "0e12290c-2515-4d02-8123-c8de03aa86df")
 		(effects
@@ -14816,11 +14788,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify bottom)
 		)
 	)
 	(gr_text "DB0 DB1\n"
-		(at 105.362484 60.825401 90)
+		(at 104.82 60.084 90)
 		(layer "F.SilkS")
 		(uuid "efaf8f24-ec3c-4b8e-86da-035800cef530")
 		(effects
@@ -14828,11 +14799,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify bottom)
 		)
 	)
 	(gr_text "DB2 DB3\n"
-		(at 107.948766 60.895779 90)
+		(at 107.36 60.084 90)
 		(layer "F.SilkS")
 		(uuid "091a0d49-58dd-49ab-a939-58a37fb00753")
 		(effects
@@ -14840,11 +14810,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify bottom)
 		)
 	)
 	(gr_text "DB4 DB5\n"
-		(at 110.306458 60.878185 90)
+		(at 109.9 60.084 90)
 		(layer "F.SilkS")
 		(uuid "1071b8c6-b514-4055-81ab-99000a2caba4")
 		(effects
@@ -14852,11 +14821,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify bottom)
 		)
 	)
 	(gr_text "DB6 DB7\n"
-		(at 112.895364 60.890216 90)
+		(at 112.44 60.122 90)
 		(layer "F.SilkS")
 		(uuid "bfad2783-7305-479a-98f9-dab437ed4aea")
 		(effects
@@ -14864,11 +14832,10 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify bottom)
 		)
 	)
 	(gr_text "DGND 5V\n"
-		(at 120.454151 60.824668 90)
+		(at 120.06 60.142 90)
 		(layer "F.SilkS")
 		(uuid "a3e64e7a-e99f-4a63-b275-73e5cce6c5e6")
 		(effects
@@ -14876,7 +14843,6 @@
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify bottom)
 		)
 	)
 	(gr_text "IC1"
