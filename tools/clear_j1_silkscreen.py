@@ -45,6 +45,7 @@ UUID_NAMESPACE = uuid.UUID("f28bfdf6-8891-41e0-a64b-805412227afd")
 @dataclass
 class PadKeepout:
     number: str
+    shape: str
     polygon: list[tuple[float, float]]
     object_uuid: str
 
@@ -139,6 +140,7 @@ def j1_keepouts(root_forms: list[str]) -> list[PadKeepout]:
         result.append(
             PadKeepout(
                 number=number,
+                shape=shape,
                 polygon=polygon,
                 object_uuid=str(uuid.uuid5(UUID_NAMESPACE, f"J1-pad-{number}-silk-clearance-{CLEARANCE_MM:.2f}")),
             )
@@ -266,11 +268,22 @@ def main() -> None:
         action="store_true",
         help="remove this script's J1 User.1 polygons without changing the clipped silk",
     )
+    parser.add_argument(
+        "--square-only",
+        action="store_true",
+        help="operate only on J1's non-circular pad (normally pin 1)",
+    )
     args = parser.parse_args()
 
     board_text = args.board.read_text(encoding="utf-8")
     root_forms = nested_forms(board_text, 2)
     keepouts = j1_keepouts(root_forms)
+    if args.square_only:
+        keepouts = [item for item in keepouts if item.shape != "circle"]
+        if len(keepouts) != 1:
+            raise SystemExit(
+                f"Expected exactly one non-circular J1 pad; found {len(keepouts)}"
+            )
     if args.remove_helpers:
         new_board_text = board_text
         removed = 0
@@ -427,7 +440,7 @@ def main() -> None:
     with args.board.open("w", encoding="utf-8", newline="\n") as board_file:
         board_file.write(new_board_text)
     print(
-        f"Updated 40 User.1 pad helpers ({len(missing_helpers)} new) and "
+        f"Updated {len(keepouts)} User.1 pad helpers ({len(missing_helpers)} new) and "
         f"clipped {changed} decorative polygons."
     )
 
