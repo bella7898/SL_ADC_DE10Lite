@@ -14196,7 +14196,7 @@
 	)
 	(gr_line
 		(start 72 103.5)
-		(end 71.803412 103.533458)
+		(end 71.8 103.525)
 		(stroke
 			(width 0.1)
 			(type solid)
